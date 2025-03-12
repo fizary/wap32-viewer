@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    html {
+        color: theme(colors.zinc.300);
+        background-color: theme(colors.zinc.950);
+    }
+}
